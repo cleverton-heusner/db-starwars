@@ -10,7 +10,8 @@ Aplicação cliente de [API](https://swapi.co/) que disponibiliza dados sobre a 
 * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS3/) - Segunda versão do CSS, traz recursos poderosos, tais como as Media Queries;
 * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/) - Versão mais atual da linguagem HTML e alicerce de frameworks frontend modernos;
 * [Bootstrap](https://getbootstrap.com/) - Framework de componentes visuais focado na responsividade e simplicidade;
-* [Node.js](https://nodejs.org/) - Ambiente para execução de código JavaScript no lado servidor.
+* [Node.js](https://nodejs.org/) - Ambiente para execução de código JavaScript no lado servidor;
+* [Node Package Manager](https://www.npmjs.com/) - Gerenciador de pacotes JavaScript, sendo o padrão do ambiente Node.js.
 
 ## Instalando   
 1. Baixe o repositório remoto do projeto para sua máquina com o comando:
