@@ -4,30 +4,14 @@
 Aplicação cliente de [API](https://swapi.co/) que disponibiliza dados sobre a franquia Star Wars.    
 
 ## Principais tecnologias envolvidas
-* [Spring Boot](http://spring.io/projects/spring-boot/) - Fácil configuração de uma aplicação baseada em Spring;
-* [PostgreSQL](https://www.postgresql.org/) - Banco relacional que armazenará os lançamentos contábeis;
-* [Docker](https://www.docker.com/) - Embutindo as dependências de uma aplicação em um contêiner, facilita a execução e o deploy da mesma em ambientes diversos;
-* [Docker Compose](https://docs.docker.com/compose/) - Complementar ao Docker, permite que múltiplos contêineres sejam gerenciados ao mesmo tempo;
-* [Spring Tool Suite](https://spring.io/tools/) - IDE sob medida para aplicações baseadas em Spring;
-* [JPA](https://www.oracle.com/technetwork/java/javaee/tech/persistence-jsp-140049.html) - Especificação ORM, implementada neste projeto pelo Hibernate;
-* [Bean Validation](https://beanvalidation.org/) - Especificação para validação de beans de forma declarativa implementada pelo Hibernate Validator;
-* [JUnit](https://junit.org/junit5/) - Ferramenta adotada para confecção de testes unitários e de integração;
-* [Project Lombok](https://projectlombok.org/) - Redução da verbosidade do Java através da substituição de código repetitivo por metadados;
-* [Mockito](https://site.mockito.org/) - Facilitador do uso de mocks em testes unitários;
-* [Flyway](https://flywaydb.org/) - Versionamento do esquema de um banco de dados.
+* [Angular](https://angular.io/) - Fácil configuração de uma aplicação baseada em Spring;
+* [TypeScript](https://www.typescriptlang.org/) - Banco relacional que armazenará os lançamentos contábeis;
+* [ECMAScript 6](http://es6-features.org/) - Embutindo as dependências de uma aplicação em um contêiner, facilita a execução e o deploy da mesma em ambientes diversos;
+* [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS3/) - Complementar ao Docker, permite que múltiplos contêineres sejam gerenciados ao mesmo tempo;
+* [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/) - IDE sob medida para aplicações baseadas em Spring;
+* [Bootstrap](https://getbootstrap.com/) - Especificação ORM, implementada neste projeto pelo Hibernate;
+* [Node.js](https://nodejs.org/) - Especificação para validação de beans de forma declarativa implementada pelo Hibernate Validator;
 
-## Recursos
-* Listagem de lançamentos contábeis:
-  + GET /lancamentos-contabeis  
-* Busca de lançamento contábil por id:
-  + GET /lancamentos-contabeis/{id}
-* Filtragem de lançamentos contábeis por conta contábil:
-  + GET /lancamentos-contabeis/por-conta-contabil
-* Exibição de estatísticas dos lançamentos contábeis cadastrados:  
-  + GET /lancamentos-contabeis/estatisticas
-* Cadastro de lançamento contábil:  
-  + POST /lancamentos-contabeis
-  
 ## Instalando   
 1. Baixe o repositório remoto do projeto para sua máquina com o comando:
    ```bash
