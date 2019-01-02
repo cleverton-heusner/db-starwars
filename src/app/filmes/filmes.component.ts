@@ -11,7 +11,7 @@ export class FilmesComponent implements OnInit {
 
   private filmes: any = [];
   private filmesCarregados: boolean = false;
-  private progressoCarregamento: integer = 50;
+  private progressoCarregamento: number = 50;
 
   private ordenarFilmesPorElenco(){
     this.filmes.sort((a, b) => b.characters.length - a.characters.length);
