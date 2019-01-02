@@ -1,7 +1,7 @@
-# Contábil
+# Star Wars Database
 
 ## Introdução
-Microsserviço destinado à gerência de lançamentos contábeis.    
+Aplicação cliente de API(https://swapi.co/) que disponibiliza dados sobre a franquia Star Wars.    
 
 ## Principais tecnologias envolvidas
 * [Spring Boot](http://spring.io/projects/spring-boot/) - Fácil configuração de uma aplicação baseada em Spring;
