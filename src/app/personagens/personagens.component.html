@@ -1,0 +1,40 @@
+<!-- Espacamento -->
+<div class="mt-5" [hidden]="personagensCarregados"></div>
+
+<!-- Barra de progresso -->
+<div class="progress" [hidden]="personagensCarregados">
+  <div class="progress-bar bg-dark progress-bar-animated">AGUARDE...{{ progressoCarregamento }}%</div>
+</div>
+
+<!-- Tabela de personagens -->
+<div id="card-tabela" class="card mt-5" [hidden]="!personagensCarregados">
+  <div class="table-responsive">
+    <table id='lista_personagens_tabela' class="table table-dark table-hover text-center mb-0">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Nome</th>
+          <th scope="col">Altura</th>
+          <th scope="col">Sexo</th>
+          <th scope="col">Ano de Nascimento</th>
+          <th scope="col">Planeta Natal</th>
+          <th scope="col">Espécie</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let personagem of personagens;trackBy: rastrearPorIndice">
+          <td>{{ personagem.name }}</td>
+          <td>{{ personagem.height | altura }}</td>
+          <td>{{ personagem.gender }}</td>
+          <td>{{ personagem.birth_year | anoNascimento }}</td>
+          <td>{{ personagem.nomePlaneta }}</td>
+          <td>{{ personagem.nomeEspecie }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Paginacao da tabela -->
+<div [hidden]="!personagensCarregados">
+  <ngb-pagination class="d-flex justify-content-center mt-2" [collectionSize]="totalPersonagens" [pageSize]="tamanhoPagina" [(page)]="pagina" (pageChange)="listarPersonagensProxPagina($event)"></ngb-pagination>
+</div>

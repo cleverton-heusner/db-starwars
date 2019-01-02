@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  padding: 20px;
+  background-color: black
+}
+
+/* Barra de progresso */
+.progress, .progress-bar {
+  height: 40px
+}
+
+.progress-bar {
+  width: 100%
+}
+
+/* Paginacao */
+.pagination .page-link {
+  color: grey !important;
+  background-color: #f6f6f6 !important;
+  font-weight: bold
+}

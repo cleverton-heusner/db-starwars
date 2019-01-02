@@ -1,0 +1,14 @@
+<div class="mt-5"></div>
+
+<div class="progress" [hidden]="filmesCarregados">
+  <div class="progress-bar bg-dark progress-bar-animated">AGUARDE...{{ progressoCarregamento }}%</div>
+</div>
+
+<div id="card-colunas" class="card-columns" [hidden]="!filmesCarregados">
+  <div class="card bg-light" *ngFor="let filme of filmes; trackBy: rastrearPorIdEpisodio">
+    <div class="card-body text-left">
+      <div class="card-text"><b>Título:</b> {{ filme.title + ': Episódio ' + filme.episode_id }}</div>
+      <div class="card-text"><b>Elenco:</b> {{ filme.characters.length }} personagens</div><br>
+    </div>
+  </div>
+</div>
