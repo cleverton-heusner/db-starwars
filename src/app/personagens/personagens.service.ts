@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
+import { ParametroRequisicaoService } from '../commons/http/parametro-requisicao.service'
 
 @Injectable({
   providedIn: 'root'

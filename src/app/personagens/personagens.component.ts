@@ -38,7 +38,7 @@ export class PersonagensComponent implements OnInit {
       requisicoes.push(this.requisicaoHttp.get(urlEspecie));
     }
 
-    Observable.forkJoin(requisicoes).subscribe((res) => {
+    Observable.forkJoin(requisicoes).subscribe((res: any) => {
       personagem.nomePlaneta = res[0].name;
       personagem.nomeEspecie = res[1] ? res[1].name : this.ESPECIE_DESCONHECIDA;
       this.progressoCarregamento += this.tamanhoPagina;
@@ -55,7 +55,7 @@ export class PersonagensComponent implements OnInit {
     this.parametroRequisicao.valor = this.pagina;
 
     this.personagensService.listarPersonagens(this.parametroRequisicao)
-      .subscribe((res) => {
+      .subscribe((res: any) => {
         this.totalPersonagens = res.count;
         this.personagens = res.results;
 

@@ -18,7 +18,7 @@ export class FilmesComponent implements OnInit {
   }
 
   private listarFilmes() {
-    this.filmesService.listarFilmes().subscribe((res) => {
+    this.filmesService.listarFilmes().subscribe((res: any) => {
       this.filmes = res.results;
       this.ordenarFilmesPorElenco();
 
