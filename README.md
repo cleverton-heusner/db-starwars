@@ -7,8 +7,8 @@ Aplicação cliente de [API](https://swapi.co/) que disponibiliza dados sobre a 
 * [Angular](https://angular.io/) - Baseado na linguagem TypeScript, possibilita o desenvolvimento web no formato Single Page Application;
 * [TypeScript](https://www.typescriptlang.org/) - Ainda que seja compilada para JavaScript puro, traz recursos ausentes neste, como tipagem de dados estática, interfaces e modificadores de acesso;
 * [ECMAScript 6](http://es6-features.org/) - Inaugurada em 2015, esta atualização do JavaScript tem como principal característica tornar sua sintaxe próxima a de uma linguagem orientada a objetos;
-* [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS3/) - Segunda versão do CSS, com inúmeros recursos adicionais;
-* [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/) - Versão mais atual da linguagem HTML;
+* [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS3/) - Segunda versão do CSS, traz recursos poderosos, tais como as Media Queries;
+* [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/) - Versão mais atual da linguagem HTML e alicerce de frameworks frontend modernos;
 * [Bootstrap](https://getbootstrap.com/) - Framework de componentes visuais focado na responsividade e simplicidade;
 * [Node.js](https://nodejs.org/) - Ambiente para execução de código JavaScript no lado servidor.
 
