@@ -1,7 +1,7 @@
 # Star Wars Database
 
 ## Introdução
-Aplicação cliente de API(https://swapi.co/) que disponibiliza dados sobre a franquia Star Wars.    
+Aplicação cliente de [API](https://swapi.co/) que disponibiliza dados sobre a franquia Star Wars.    
 
 ## Principais tecnologias envolvidas
 * [Spring Boot](http://spring.io/projects/spring-boot/) - Fácil configuração de uma aplicação baseada em Spring;
