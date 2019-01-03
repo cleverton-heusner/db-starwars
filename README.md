@@ -30,7 +30,7 @@ Aplicação cliente de [API](https://swapi.co/) que disponibiliza dados sobre a 
    ng serve
    ```
 
-5. A porta padrão escolhida pelo Angular é a 4200. No browser de sua preferência, acesse a aplicação através do endereço http://localhost:4200/home 
+5. No browser de sua preferência, acesse a aplicação através do endereço http://localhost:4200/home. 
    
 ## Autor
 Cleverton Heusner
