@@ -13,32 +13,24 @@ Aplicação cliente de [API](https://swapi.co/) que disponibiliza dados sobre a 
 * [Node.js](https://nodejs.org/) - Ambiente para execução de código JavaScript no lado servidor;
 * [Node Package Manager](https://www.npmjs.com/) - Gerenciador de pacotes JavaScript, sendo o padrão do ambiente Node.js.
 
-## Instalando   
-1. Baixe o repositório remoto do projeto para sua máquina com o comando:
-   ```bash
-   git clone https://github.com/cleverton-heusner/contabil.git  
-   ```
-2. No Spring Tool Suite, importe o repositório baixado como um projeto maven;
+## Instalando
+1. Certifique-se de ter a versão mais recente do Node.js e do npm. Para este projeto, foram usadas as versões **11.6.0** e **6.5.0**, respectivamente;
 
-3. Caso a sua IDE já esteja integrada à dependência Project Lombok, pule para o passo 4. Do contrário, siga as instruções no link https://projectlombok.org/setup/eclipse;
+2. Baixe o repositório remoto do projeto para sua máquina com o comando:
+   ```bash
+   git clone https://github.com/cleverton-heusner/db-starwars  
+   ```
+3. Na raíz do projeto, baixe todas as dependências necessárias com o seguinte comando:
+   ```bash
+   npm i
+   ```
 
-4. Na raíz do projeto, digite o comando abaixo, em que 2 representa o número de instâncias desejadas da aplicação:
+4. O próximo comando irá compilar e executar a aplicação:
    ```bash
-   ./instalar 2
+   ng serve
    ```
-5. Após as instâncias da aplicação terem sido inicializadas, basta descobrir a porta de acesso escolhida para cada uma. Para tal, execute o comando que segue:
-   ```bash
-   docker ps
-   ```
-6. Supondo que uma das portas escolhidas seja **9999**, é o momento de enviar requisições. Para cadastrar um lançamento contábil, envie para a URL http://localhost:9999/lancamentos-contabeis uma requisição **POST** contendo o seguinte JSON:
-   ```json
-   {
-     "contaContabil": "1234567",
-     "data": "2018-12-27",
-     "valor": 10.99     
-   }
-   ```
-Para visualizar o lançamento contábil recém-cadastrado, envie para a mesma URL uma requisição **GET**.
-   	
+
+5. A porta padrão escolhida pelo Angular é a 4200. No browser de sua preferência, acesse a aplicação através do endereço http://localhost:4200/home 
+   
 ## Autor
 Cleverton Heusner
