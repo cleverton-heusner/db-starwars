@@ -44,6 +44,10 @@ import { AnoNascimentoPipe } from './commons/pipes/ano-nascimento.pipe';
       {
         path: 'filmes',
         component: FilmesComponent
+      },
+      {
+        path: '**',
+        redirectTo: 'home'
       }
     ])
   ],
